@@ -1,0 +1,26 @@
+package Lab4;
+
+import java.util.Arrays;
+
+public class sorting {
+    public static void main(String[] args) {
+        int [] à = {4, 3, 9, 5, 1, 6, 2, 7, 8};
+ 
+        boolean isSorted = false;
+        int b;
+        while(!isSorted) {
+            isSorted = true;
+            for (int i = 0; i < à.length-1; i++) {
+                if(à[i] > à[i+1]){
+                    isSorted = false;
+ 
+                    b = à[i];
+                    à[i] = à[i+1];
+                    à[i+1] = b;
+                }
+            }
+        }
+        System.out.println(Arrays.toString(à));
+    }
+}
+
