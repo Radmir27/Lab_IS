@@ -16,7 +16,7 @@ import java.awt.Image;
 
 public class subversion {
 	
-	private String inf = "";
+	private String inf = "hello";
 	
 	public subversion() throws IOException {
 	final JFrame main_GUI = new JFrame("subversion");	// создание графического окна
@@ -120,7 +120,7 @@ public class subversion {
 	});
 
 	String[] items = {
-            "Переместить логотип УГАТУ в верхний правый угол",
+            "Переместить логотип УГАТУ в верхний  угол",
             "Переместить логотип УГАТУ в середину",
             "Переместить логотип УГАТУ в верхний левый угол",
             "Отсортировать данные в проекте 5" }; 
