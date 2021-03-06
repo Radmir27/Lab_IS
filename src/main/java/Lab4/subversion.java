@@ -18,7 +18,7 @@ public class subversion {
 	
 	private String inf = "Абкаримов Радмир Маратович 19130598\n"
 			+ "Бражников Дмитрий Алексеевич 19130623\n"
-			+ "Ушаков Милан Олегович 19130644\n";
+			+ "Ушаков Милан Олегович 19130644 06.03.2021\n";
 	
 	public subversion() throws IOException {
 	final JFrame main_GUI = new JFrame("subversion");	// создание графического окна
