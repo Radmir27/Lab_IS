@@ -17,7 +17,7 @@ import java.awt.Image;
 public class subversion {
 	
 	private String inf = "Абкаримов Радмир Маратович 19130598 06.03.2021\n"
-			+ "Бражников Дмитрий Алексеевич 19130623\n"
+			+ "Бражников Дмитрий Алексеевич 19130623 06.03.2021\n"
 			+ "Ушаков Милан Олегович 19130644 06.03.2021\n";
 	
 	public subversion() throws IOException {
